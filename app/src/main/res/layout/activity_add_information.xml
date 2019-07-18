@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/addInformation">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="Last Name: "
+                android:layout_marginLeft="25dp"/>
+
+            <EditText
+                android:id="@+id/addInformationLastName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minWidth="100dip"
+                android:layout_marginRight="25dp"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="First Name: "
+            android:layout_marginLeft="25dp"/>
+
+        <EditText
+            android:id="@+id/addInformationFirstName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="100dip"
+            android:layout_marginRight="25dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Email: "
+            android:layout_marginLeft="25dp"/>
+
+        <EditText
+            android:id="@+id/addInformationEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="100dip"
+            android:layout_marginRight="25dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Phone: "
+            android:layout_marginLeft="25dp"/>
+
+        <EditText
+            android:id="@+id/addInformationPhone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="100dip"
+            android:layout_marginRight="25dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Major: "
+            android:layout_marginLeft="25dp"/>
+
+        <EditText
+            android:id="@+id/addInformationMajor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="100dip"
+            android:layout_marginRight="25dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Degree: "
+            android:layout_marginLeft="25dp"/>
+
+        <EditText
+            android:id="@+id/addInformationDegree"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="100dip"
+            android:layout_marginRight="25dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Graduation Date: "
+            android:layout_marginLeft="25dp"/>
+
+        <EditText
+            android:id="@+id/addInformationGraduationDate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="100dip"
+            android:layout_marginRight="25dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Position Interested In: "
+            android:layout_marginLeft="25dp"/>
+
+        <EditText
+            android:id="@+id/addInformationPositionInterestedIn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="100dip"
+            android:layout_marginRight="25dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Comment: "
+            android:layout_marginLeft="25dp"/>
+
+        <EditText
+            android:id="@+id/addInformationComment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="100dip"
+            android:layout_marginRight="25dp"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
